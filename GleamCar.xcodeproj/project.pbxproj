@@ -7,18 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3204B7BD2B582848001A3963 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3204B7BC2B582848001A3963 /* MainTabView.swift */; };
+		3204B7BF2B582854001A3963 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3204B7BE2B582854001A3963 /* LocationView.swift */; };
+		3204B7C12B582864001A3963 /* ReservationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3204B7C02B582864001A3963 /* ReservationView.swift */; };
+		3204B7C32B582889001A3963 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3204B7C22B582889001A3963 /* Model.swift */; };
+		3204B7C52B5828C4001A3963 /* CarWash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3204B7C42B5828C4001A3963 /* CarWash.swift */; };
+		321308A02B5AB94100445AB2 /* NoReservationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3213089F2B5AB94100445AB2 /* NoReservationView.swift */; };
 		32173B2C2B58211F0050D5FA /* GleamCarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32173B2B2B58211F0050D5FA /* GleamCarApp.swift */; };
-		32173B2E2B58211F0050D5FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32173B2D2B58211F0050D5FA /* ContentView.swift */; };
 		32173B302B5821200050D5FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32173B2F2B5821200050D5FA /* Assets.xcassets */; };
 		32173B332B5821200050D5FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32173B322B5821200050D5FA /* Preview Assets.xcassets */; };
+		325700322B588D3F00781511 /* Reservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325700312B588D3F00781511 /* Reservation.swift */; };
+		32B3637C2B5859CA00FDD620 /* CarWashCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B3637B2B5859CA00FDD620 /* CarWashCell.swift */; };
+		32B3637E2B5864E300FDD620 /* ReservationForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B3637D2B5864E300FDD620 /* ReservationForm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3204B7BC2B582848001A3963 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		3204B7BE2B582854001A3963 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		3204B7C02B582864001A3963 /* ReservationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationView.swift; sourceTree = "<group>"; };
+		3204B7C22B582889001A3963 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		3204B7C42B5828C4001A3963 /* CarWash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarWash.swift; sourceTree = "<group>"; };
+		3213089F2B5AB94100445AB2 /* NoReservationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoReservationView.swift; sourceTree = "<group>"; };
 		32173B282B58211F0050D5FA /* GleamCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GleamCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32173B2B2B58211F0050D5FA /* GleamCarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GleamCarApp.swift; sourceTree = "<group>"; };
-		32173B2D2B58211F0050D5FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		32173B2F2B5821200050D5FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32173B322B5821200050D5FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		325700312B588D3F00781511 /* Reservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reservation.swift; sourceTree = "<group>"; };
+		32B3637B2B5859CA00FDD620 /* CarWashCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarWashCell.swift; sourceTree = "<group>"; };
+		32B3637D2B5864E300FDD620 /* ReservationForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationForm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +48,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3213089B2B5AB38600445AB2 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				3204B7BC2B582848001A3963 /* MainTabView.swift */,
+				3204B7BE2B582854001A3963 /* LocationView.swift */,
+				3213089D2B5AB54800445AB2 /* Reservation */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		3213089D2B5AB54800445AB2 /* Reservation */ = {
+			isa = PBXGroup;
+			children = (
+				325700312B588D3F00781511 /* Reservation.swift */,
+				3204B7C02B582864001A3963 /* ReservationView.swift */,
+				32B3637D2B5864E300FDD620 /* ReservationForm.swift */,
+				3213089F2B5AB94100445AB2 /* NoReservationView.swift */,
+			);
+			path = Reservation;
+			sourceTree = "<group>";
+		};
 		32173B1F2B58211F0050D5FA = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +89,10 @@
 			isa = PBXGroup;
 			children = (
 				32173B2B2B58211F0050D5FA /* GleamCarApp.swift */,
-				32173B2D2B58211F0050D5FA /* ContentView.swift */,
+				3213089B2B5AB38600445AB2 /* Screens */,
+				3204B7C42B5828C4001A3963 /* CarWash.swift */,
+				32B3637B2B5859CA00FDD620 /* CarWashCell.swift */,
+				3204B7C22B582889001A3963 /* Model.swift */,
 				32173B2F2B5821200050D5FA /* Assets.xcassets */,
 				32173B312B5821200050D5FA /* Preview Content */,
 			);
@@ -137,8 +177,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32173B2E2B58211F0050D5FA /* ContentView.swift in Sources */,
+				3204B7C12B582864001A3963 /* ReservationView.swift in Sources */,
+				3204B7BF2B582854001A3963 /* LocationView.swift in Sources */,
+				325700322B588D3F00781511 /* Reservation.swift in Sources */,
+				3204B7C32B582889001A3963 /* Model.swift in Sources */,
 				32173B2C2B58211F0050D5FA /* GleamCarApp.swift in Sources */,
+				321308A02B5AB94100445AB2 /* NoReservationView.swift in Sources */,
+				3204B7BD2B582848001A3963 /* MainTabView.swift in Sources */,
+				32B3637C2B5859CA00FDD620 /* CarWashCell.swift in Sources */,
+				3204B7C52B5828C4001A3963 /* CarWash.swift in Sources */,
+				32B3637E2B5864E300FDD620 /* ReservationForm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +245,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -254,7 +302,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -278,8 +326,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -287,9 +336,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.an4lex.GleamCar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -307,8 +359,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,9 +369,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.an4lex.GleamCar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
